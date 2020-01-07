@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University of Sheffield Student Union - Contact Us</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+</head>
+
+<header>
+  <div class="container">
+      <div class= "toggle">
+        <i class="fa fa-bars menu"></i>
+        <h1> <a href="index.html">Sheffield Students' Union </a></h1>
+      </div>
+      <div id= branding>
+          <h1> <a href="index.html">Sheffield Students' Union </a></h1>
+      </div>
+      <nav>
+        <ul>
+            <li><a href="areas.html">Areas</a></li>
+            <li><a href="typicalweek.html">A Typical Week</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Contact.html">Contact Us</a></li>
+            <li><a href="Accessibility.html">Accessibility Statement</a></li>
+        </ul>
+      </nav>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function(){
+          $('.menu').click(function(){
+            $('ul').toggleClass('active')
+          })
+        })
+      </script>
+  </div >
+</header>
+<body id ="accessibilityBody">
+
+      <div class="weekcontainer" id = "contact"  alt= "a picture of a calender">
+        <section id="weekhead">
+          <h1> Accessibility Statement</h1>
+
+        </section>
+        <section id="information">
+          <div id= "accessibilityText">
+            <p>We have decided to commit our development of this website to be accessible to as wide a range of users as possible, regardless of technological experience and abilities. </p>
+            <p>This means that we have a wide variety of elements in mind whilst creating this website. For example, we have tried to select a colour pallette for our website that avoids colours that some users may be blind to, such as reds, greens and yellows.</p>
+            <p>We have also tried to use images that don’t have important details in such colours.</p>
+            <p>We use alternative text for images so users using a screen reader won’t miss out on content that non blind users can see. </p>
+            <p>For the navigation bar you will see that the text contrasts the background and that it is sizeable so difficulty should not arise when navigating throughout the web pages. We have used W3C guidelines [https://www.w3.org/TR/WCAG20/] as a reference for our accessible web design.</p>
+          </div>
+        </section>
+      </div>
+
+</body>
+</html>
