@@ -85,7 +85,7 @@ header a:hover {
      Website title:	Forgetoday.com
      URL:	http://forgetoday.com/2018/01/03/su-officer-nominations-open/
   */
-  background : linear-gradient(rgba(20,20,20,0.5),rgba(20,20,20,0.5)),url(Sheffield_Students_Union_Concourse.jpg) no-repeat 0 -400px;
+  background : linear-gradient(rgba(20,20,20,0.5),rgba(20,20,20,0.5)),url(../images/testimage.png) no-repeat 0 0px;
   text-align : center;
   color: #fff;
   border-bottom: #AAAAAA 3px solid;
