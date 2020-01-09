@@ -86,7 +86,7 @@ header a:hover {
 /* display */
 #display {
   min-height: 400px;
-  background : linear-gradient(rgba(20,20,20,0.5),rgba(20,20,20,0.5)),url(../images/testimage.png) no-repeat 0 0px;
+  background : linear-gradient(rgba(20,20,20,0.5),rgba(20,20,20,0.5)),url(../images/placeholder_logo.png) no-repeat 0 0px;
   text-align : center;
   color: var(--c2);
   border-bottom: var(--c3) 3px solid;
@@ -128,10 +128,10 @@ header a:hover {
 footer{
   padding: 20px;
   margin-top : 0px;
-  background-color: var(--c1);
+  background-color: var(--c3);
   text-align: center;
   color: var(--c2);
-  border-bottom: var(--c3) 5px solid;
+  border-bottom: var(--c2) 5px solid;
 }
 
 /* Contact */
